@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "526627610624",
+    "firebase_url": "https://subtle-melody-255416.firebaseio.com",
+    "project_id": "subtle-melody-255416",
+    "storage_bucket": "subtle-melody-255416.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526627610624:android:987d083f04fa32443538e5",
+        "android_client_info": {
+          "package_name": "hbinh.com.quanlysach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526627610624-0jedgsan8drsju4h8bsbhktg7vqkpr2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHFv1lp_P_BMMYb0rjqUPDu6A7Hz19oyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526627610624-0jedgsan8drsju4h8bsbhktg7vqkpr2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

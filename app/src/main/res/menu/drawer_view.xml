@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_gioithieu"
+            android:title="Gioi thieu"
+            android:icon="@drawable/infor"/>
+        <item android:id="@+id/nav_share"
+            android:title="Share "
+            android:icon="@drawable/share"/>
+        <item android:id="@+id/nav_thongtin"
+            android:icon="@drawable/notifi"
+            android:title="Thong bao "/>
+
+    </group>
+
+</menu>

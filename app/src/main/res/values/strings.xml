@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="facebook_app_id">652829971791698</string>
+    <string name="fb_login_protocol_scheme">fb400277367587493</string>
+    <string name="app_name">Quan Ly Sach</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawe_close">Close Navigation Drawer</string>
+</resources>

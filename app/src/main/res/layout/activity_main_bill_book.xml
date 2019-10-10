@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainBillBookActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginRight="107dp"
+        android:src="@drawable/start" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginLeft="143dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:layout_marginEnd="143dp"
+        android:layout_marginRight="143dp"
+        android:fontFamily="@font/robotobold"
+        android:text="BILL"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="310dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:background="@drawable/custombuybook"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtcodebill"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Code Bill"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/txtdatebill"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Date Bill"
+                android:textColor="#000"/>
+
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spncodebook"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/maudo"
+            android:hint="Bill code"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/txtpricesbook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/maudo"
+            android:hint="Princes"
+            android:textColor="#000" />
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/edtamount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/maudo"
+            android:hint="Amount"
+            android:textColor="#000" />
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnaddbuybook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/custombtnadd"
+                android:text="ADD" />
+
+            <Button
+                android:id="@+id/btnlistbill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/custombtnpay"
+                android:text="List Bill"
+                android:textColor="#FFFF"/>
+        </LinearLayout>
+    </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainStarActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/mainheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="39dp"
+        android:text="Books Manager"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainheader"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="37dp"
+        android:gravity="center"
+        android:text="Which books do you prefer?"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/imgview"
+        android:layout_width="345dp"
+        android:layout_height="273dp"
+        android:layout_below="@+id/txtview"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:src="@drawable/start" />
+
+    <TextView
+        android:id="@+id/txtgood"
+        android:layout_width="294dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/imgview"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:fontFamily="@font/andalemono"
+        android:gravity="center"
+        android:textColor="#000"
+        android:text="Good book brings good mood"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btngetstarted"
+        android:layout_width="302dp"
+        android:layout_height="62dp"
+        android:layout_below="@+id/txtgood"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:text="GET STARTED"
+        android:textSize="24sp"
+        android:textColor="#FFFF"
+        android:fontFamily="@font/andalemono"
+        android:background="@drawable/getstarted"
+        />
+    </RelativeLayout>
+
+
+</ScrollView>
